@@ -1,0 +1,92 @@
+\documentclass[UTF8]{ctexart}
+
+% --- 导言区 (Preamble) ---
+% 1. 基础数学与排版
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+% 2. 绘图与图片控制
+\usepackage{graphicx}
+\usepackage{float}      % 【新增】用于强制固定图片位置 [H]
+\usepackage{tikz}       % 绘图工具
+\usetikzlibrary{patterns, calc} % 引入calc库以支持更复杂的坐标计算
+
+% 3. 文档信息
+\title{微积分随堂练习}
+\author{pvzercoffee}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+% --- 第一部分：积分 ---
+\section{题目：计算不定积分}
+
+求下列不定积分：
+\begin{equation}
+    I = \int \frac{1}{1 + \sin x} \,dx
+\end{equation}
+
+\subsection*{解：}利用 万能代换公式（Universal Substitution），设 $t = \tan \frac{x}{2}$，则有：
+\begin{itemize}
+    \item $dx = \frac{2}{1 + t^2} dt$
+    \item $\sin x = \frac{2t}{1 + t^2}$
+\end{itemize}
+
+将上述代换代入原式：
+\begin{align*}
+    I &= \int \frac{1}{1 + \frac{2t}{1+t^2}} \cdot \frac{2}{1+t^2} \,dt \\
+      &= \int \frac{2}{1 + t^2 + 2t} \,dt \\
+      &= \int \frac{2}{(1 + t)^2} \,dt
+\end{align*}
+
+最终计算得出：
+\begin{equation}
+    I = -\frac{2}{1 + t} + C = -\frac{2}{1 + \tan \frac{x}{2}} + C
+\end{equation}
+
+\newpage
+
+% --- 第二部分：应用题 ---
+\section{应用题：防空洞截面优化}
+
+% 使用 enumerate 环境自动编号，比手写 "12." 更优雅
+\begin{enumerate}
+    \item[12.] 某地区防空洞的截面拟建成矩形加半圆（如图 3-19）. 截面的面积为 $5 \, \mathrm{m}^2$. 问底宽 $x$ 为多少时才能使截面的周长最小，从而使建造时所用的材料最省？
+\end{enumerate}
+
+% 使用 [H] 强制让图片呆在这里，不要乱跑
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=1.5]
+        % 【建议】使用 pgfmathsetmacro 进行数值定义，比 def 更适合计算
+        \pgfmathsetmacro{\w}{2}   % 宽度 x
+        \pgfmathsetmacro{\h}{1.5} % 高度 y
+        
+        % 1. 画矩形的下半部分（左-下-右）
+        \draw[thick] (0,\h) -- (0,0) -- (\w,0) -- (\w,\h);
+        
+        % 2. 画顶部的半圆
+        % arc 语法: (起点) arc (起始角度:终止角度:半径)
+        \draw[thick] (\w,\h) arc (0:180:{\w/2});
+        
+        % 3. 画中间的虚线
+        \draw[dashed] (0,\h) -- (\w,\h);
+        
+        % 4. 标注尺寸 x 和 y
+        \draw (0,0) -- node[below] {$x$} (\w,0);
+        \draw (\w,0) -- node[right] {$y$} (\w,\h);
+        
+        % 5. 添加图注 (利用 calc 库计算中点更稳健，或者直接算好坐标)
+        \node at (\w/2, -0.5) {\small 图 3-19};
+    \end{tikzpicture}
+\end{figure}
+
+\subsection*{解：}
+
+
+
+\end{document}
