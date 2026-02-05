@@ -115,4 +115,31 @@
 \newpage
 
 
+\section{题目：含参函数的零点个数}
+
+\begin{enumerate}
+    \item[] 设常数 $k > 0$，函数 $f(x) = \ln x - \frac{x}{e} + k$ 在 $(0, +\infty)$ 内零点的个数为 \underline{\hspace{4cm}} .
+\end{enumerate}
+
+\subsection*{解：}
+$f(x)$的定义域为$\left( 0, + \infty \right)$,求得
+\begin{equation*}
+    f'(x)= \frac{1}{x}-\frac{1}{e} 
+\end{equation*}
+令$f'(x)=0$，得$x=e$为唯一驻点。
+
+\begin{align*}
+    x \in (0,e),&f'(x) > 0 \\
+    x = e,&f'(x) = 0 \\
+    x \in (e,+\infty),&f'(x) < 0 \\
+\end{align*}
+
+由此可知，$x=e$为$f(x)$的唯一极大值点，即最大值点，且
+\begin{align*}
+    &\lim_{x \to 0^{+}} f(x) = - \infty \\
+    &\lim_{x \to +\infty}f(x) = -\infty
+\end{align*}
+
+又因为极大值$k>0$，因此，函数$f(x)$在$(0,+\infty)$的零点个数为2个。
+
 \end{document}
