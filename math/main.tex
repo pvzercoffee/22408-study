@@ -5,6 +5,7 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{geometry}
+\usepackage{enumitem}
 \geometry{a4paper, margin=1in}
 
 % 2. 绘图与图片控制
@@ -15,7 +16,7 @@
 
 % 3. 文档信息
 \title{微积分随堂练习}
-\author{pvzercoffee}
+\author{雷振杰}
 \date{\today}
 
 \begin{document}
@@ -112,6 +113,14 @@
 \\
 
 故，当底宽$x$为$\sqrt{\frac{40}{4+\pi}}$时，截面的周长最小。
+
+\subsection*{思考方向：}
+\begin{itemize}
+    \item \textbf{在确定的式子减少未知数、结合题目需要的变量以明确关系}
+    \item \textbf{通过隐藏细节，从整体比例找关系解复杂方程}
+\end{itemize}
+
+
 \newpage
 
 
@@ -141,5 +150,49 @@ $f(x)$的定义域为$\left( 0, + \infty \right)$,求得
 \end{align*}
 
 又因为极大值$k>0$，因此，函数$f(x)$在$(0,+\infty)$的零点个数为2个。
+\\
+
+\subsection*{思考方向：}
+\begin{itemize}
+    \item \textbf{通过导数判断函数单调性与极值得到零点个数信息}
+\end{itemize}
+
+\newpage
+\section{题目：导数与微分中值定理的综合应用}
+
+\begin{enumerate}
+    \item[2.(1)] 设在 $[0, 1]$ 上 $f''(x) > 0$，则 $f'(0), f'(1), f(1)-f(0)$ 或 $f(0)-f(1)$ 几个数的大小顺序为（ \quad ）.
+    \begin{enumerate}[label=(\Alph*)]
+        \item $f'(1) > f'(0) > f(1)-f(0)$
+        \item $f'(1) > f(1)-f(0) > f'(0)$
+        \item $f(1)-f(0) > f'(1) > f'(0)$
+        \item $f'(1) > f(0)-f(1) > f'(0)$
+    \end{enumerate}
+\end{enumerate}
+
+\subsection*{解：}
+
+\begin{itemize}
+    \item 因为 $f''(x) > 0$，所以 $f'(x)$ 在 $[0, 1]$ 上单调递增。
+    \item 由此可知 $f(x)$ 在 $[0, 1]$ 上连续且在 $(0, 1)$ 上可导。
+\end{itemize}
+
+适用于拉格朗日中值定理：
+% 拉格朗日中值定理的标准表达
+\[ \exists \xi \in (a, b), \text{ 使得 } f'(\xi) = \frac{f(b) - f(a)}{b - a} \]
+即\[ f(b) - f(a) = f'(\xi)(b-a) \]
+
+将$1,0$代入$b,a$，有
+\[ f(1)-f(0) = f'(\xi) (1-0) =  f'(\xi) \] 
+由于$f'(x)$在$(0,1)$上单调递增，必有
+\[ f'(1) > f(1)-f(0) > f'(0) \]
+因此，答案为B。
+
+\subsection*{思考方向：}
+\begin{itemize}
+    \item \textbf{拉格朗日中值定理}：存在 $\xi \in (0, 1)$，使得 $f(1) - f(0) = f'(\xi)(1 - 0) = f'(\xi)$。
+    \item \textbf{二阶导数的意义}：若 $f''(x) > 0$，则一阶导数 $f'(x)$ 在区间内是单调递增的。
+    \item \textbf{结合判断}：通过比较 $0 < \xi < 1$ 时导数值的大小关系，即可得出选项。
+\end{itemize}
 
 \end{document}
