@@ -87,6 +87,32 @@
 
 \subsection*{解：}
 
+列出周长与面积：
+
+\begin{align*}
+    &L=2y+x+ \frac{1}{2} \pi x \\
+    &S=xy+ \frac{ \pi }{8}=5 \\
+\end{align*}
+通过$S$找到$y$的$x$表达式：
+\begin{equation}
+    y = \frac{5}{x}- \frac{\pi}{8} x^{2}
+\end{equation}
+将表达式代入周长$L$，求出周长的$x$函数：
+\begin{equation}
+    L= \frac{10}{x} + \frac{\pi}{4} x+x
+\end{equation}
+对$L$求导一阶导、二阶导
+\begin{align*}
+    &L'= 1+ \frac{\pi}{4} - \frac{10}{x^{2}} \\
+    &L'' = \frac{20}{x^{3}}
+\end{align*}
+令$L'=0$，得到$x=\sqrt{\frac{40}{4+\pi}}$（唯一驻点）；
+
+将其代入$L''$，得$L''>0$，即$x=\sqrt{\frac{40}{4+\pi}}$为$L$的极小值点、最小值点。
+\\
+
+故，当底宽$x$为$\sqrt{\frac{40}{4+\pi}}$时，截面的周长最小。
+\newpage
 
 
 \end{document}
