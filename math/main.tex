@@ -195,4 +195,36 @@ $f(x)$的定义域为$\left( 0, + \infty \right)$,求得
     \item \textbf{结合判断}：通过比较 $0 < \xi < 1$ 时导数值的大小关系，即可得出选项。
 \end{itemize}
 
+\newpage
+\section{题目：高阶导数与函数性态判定}
+
+\begin{enumerate}
+    \item[2.(2)] 设 $f'(x_0) = f''(x_0) = 0, f'''(x_0) > 0$，则（ \quad ）.
+    \begin{enumerate}[label=(\Alph*)]
+        \item $f'(x_0)$ 是 $f'(x)$ 的极大值
+        \item $f(x_0)$ 是 $f(x)$ 的极大值
+        \item $f(x_0)$ 是 $f(x)$ 的极小值
+        \item $(x_0, f(x_0))$ 是曲线 $y=f(x)$ 的拐点
+    \end{enumerate}
+\end{enumerate}
+
+\subsection*{解：}
+已知$f'''(x_{0})>0$，则由$f''(x_{0})=0$可知，$f''(x)$在$x_{0}$某邻域单调递增，有
+\begin{align*}
+     &\lim_{x \to x_{0}^{+}} f''(x) > 0 \\
+     &\lim_{x \to x_{0}^{-}} f''(x) < 0
+\end{align*}
+得到$(x_{0},f(x_0))$是$f(x)$的拐点,且$f'(x_{0})$是$f'(x)$的极小值，A排除.这意味着$f'(x)$始终$\ge 0$。 
+\\
+
+此时可推断出$f(x)$无极值点，B、C排除。 
+\\
+
+若能构造出具体函数亦可直接解出。如$f(x)=x^{3}$
+
+\subsection*{思考方向：}
+\begin{itemize}
+    \item \textbf{ 紧密结合导数定义，逐步分析函数的单调性和凹凸性，最终得出结论。}
+\end{itemize}
+
 \end{document}

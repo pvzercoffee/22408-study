@@ -9,5 +9,7 @@
 ## 🛠 工具链
 - **宿主环境**: WSL2 (Ubuntu)
 - **编辑器**: VS Code Insiders + LaTeX Workshop
-- **编译器**: XeLaTeX
+63 - **编译器**: XeLaTeX
 - **AI 助手**: Gemini
+
+
