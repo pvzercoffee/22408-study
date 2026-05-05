@@ -1096,3 +1096,238 @@ pat 轻拍
 neutral 中立的，中性的
 neutral 中立的，中性的
 neutral 中立的，中性的
+
+possess 拥有，具有
+possess 拥有，具有
+possess 拥有，具有
+possess 拥有，具有
+possess 拥有，具有
+possess 拥有，具有
+possess 拥有，具有
+possess 拥有，具有
+possess 拥有，具有
+possess 拥有，具有
+possess 拥有，具有
+possess 拥有，具有
+possess 拥有，具有
+possess 拥有，具有
+possess 拥有，具有
+possess 拥有，具有
+possess 拥有，具有
+possess 拥有，具有
+possess 拥有，具有
+possess 拥有，具有
+
+participate 参与，参加
+participate 参与，参加
+participate 参与，参加
+
+crack 使破裂，裂开
+crack 使破裂，裂开
+crack 使破裂，裂开
+crack 使破裂，裂开
+crack 使破裂，裂开
+crack 使破裂，裂开
+crack 使破裂，裂开
+crack 使破裂，裂开
+
+curb 控制，限制，抑制
+curb 控制，限制，抑制
+curb 控制，限制，抑制
+curb 控制，限制，抑制
+curb 控制，限制，抑制
+curb 控制，限制，抑制
+curb 控制，限制，抑制
+curb 控制，限制，抑制
+curb 控制，限制，抑制
+curb 控制，限制，抑制
+curb 控制，限制，抑制
+
+semester 学期
+semester 学期
+semester 学期
+semester 学期
+semester 学期
+semester 学期
+semester 学期
+semester 学期
+semester 学期
+semester 学期
+semester 学期
+semester 学期
+semester 学期
+semester 学期
+semester 学期
+semester 学期
+semester 学期
+semester 学期
+semester 学期
+semester 学期
+semester 学期
+semester 学期
+semester 学期
+
+critic 评论家，批评家
+critic 评论家，批评家
+critic 评论家，批评家
+critic 评论家，批评家
+critic 评论家，批评家
+critic 评论家，批评家
+critic 评论家，批评家
+critic 评论家，批评家
+critic 评论家，批评家
+critic 评论家，批评家
+critic 评论家，批评家
+
+outer 在外的，外边的
+outer 在外的，外边的
+outer 在外的，外边的
+outer 在外的，外边的
+outer 在外的，外边的
+
+interior 内部，内地
+interior 内部，内地
+interior 内部，内地
+interior 内部，内地
+interior 内部，内地
+
+brief 短暂的，简洁的
+brief 短暂的，简洁的
+brief 短暂的，简洁的
+brief 短暂的，简洁的
+brief 短暂的，简洁的
+brief 短暂的，简洁的
+brief 短暂的，简洁的
+brief 短暂的，简洁的
+brief 短暂的，简洁的
+brief 短暂的，简洁的
+brief 短暂的，简洁的
+
+strive 努力，奋斗，斗争
+strive 努力，奋斗，斗争
+
+exhaust 耗尽，废气
+exhaust 耗尽，废弃
+exhaust 耗尽，废气
+exhaust 耗尽，废气
+
+exert 施加，运用，努力
+exert 施加，运用，努力
+exert 施加，运用，努力
+exert 施加，运用，努力
+exert 施加，运用，努力
+exert 施加，运用，努力
+
+on the slide 日渐衰退
+on the slide 日渐衰退
+
+calorie 卡路里
+calorie 卡路里
+calorie 卡路里
+
+former 以前的，前者的
+former 以前的，前者的
+former 以前的，前者的
+former 以前的，前者的
+former 以前的，前者的
+
+retail 零售
+retail 零售
+retail 零售
+retail 零售
+retail 零售
+retail 零售
+retail 零售
+retail 零售
+retail 零售
+retail 零售
+retail 零售
+retail 零售
+retail 零售
+retail 零售
+
+forecast 预测，预报
+forecast 预测，预报
+forecast 预测，预报
+forecast 预测，预报
+forecast 预测，预报
+forecast 预测，预报
+forecast 预测，预报
+forecast 预测，预报
+forecast 预测，预报
+forecast 预测，预报
+
+artistic 艺术的，精美的
+artistic 艺术的，精美的
+artistic 艺术的，精美的
+artistic 艺术的，精美的
+
+snack 零食，小吃
+snack 零食，小吃
+snack 零食，小吃
+snack 零食，小吃
+snack 零食，小吃
+snack 零食，小吃
+snack 零食，小吃
+snack 零食，小吃
+
+severe 严重的，严厉的
+severe 严重的，严厉的
+severe 严重的，严厉的
+severe 严重的，严厉的
+severe 严重的，严厉的
+
+unfair 不公平的
+unfair 不公平的
+unfair 不公平的
+unfair 不公平的
+unfair 不公平的
+unfair 不公平的
+unfair 不公平的
+unfair 不公平的
+unfair 不公平的
+unfair 不公平的
+unfair 不公平的
+unfair 不公平的
+
+instrument 仪器，乐器
+instrument 仪器，乐器
+instrument 仪器，乐器
+instrument 仪器，乐器
+instrument 仪器，乐器
+instrument 仪器，乐器
+instrument 仪器，乐器
+
+volcanic 火山的
+volcanic volcanic volcanic 
+purchase 购买，采购
+purchase 购买，采购
+
+ancestor 祖先，原型
+ancestor 祖先，原型
+ancestor 祖先，原型
+ancestor 祖先，原型
+ancestor 祖先，原型
+
+assume 假定，假设
+assume 假定，假设
+assume 假定，假设
+assume 假定。假设
+assume 假定，假设
+assume 假定，假设
+
+express 表达，表现
+express 表达，表现
+
+vulnerable 脆弱的
+vulnerable 
+vulnerable 
+vulnerable 
+vulnerable 
+vulnerable 
+vulnerable 
+vulnerable 
+
+construction 建造，建筑
+construction 建造，建筑
+
